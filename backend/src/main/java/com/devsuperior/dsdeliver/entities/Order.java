@@ -105,6 +105,18 @@ public class Order implements Serializable{
 
 
 
+	public Set<Product> getProducts() {
+		return products;
+	}
+
+
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
