@@ -7,8 +7,8 @@ import { OrderLocationData } from './Types';
  
 const initialPosition = 
 {
-    lat:51.505,
-    lng:-0.09
+    lat:-19.8613388,
+    lng:-43.9594399
 }
 
 type Props={

@@ -12,3 +12,12 @@ export type OrderLocationData = {
     address: string;
 
 }
+
+type ProductId = {
+    id:number;
+}
+
+export type OrderPayLoad = {
+    products:ProductId[];
+} & OrderLocationData;
+
