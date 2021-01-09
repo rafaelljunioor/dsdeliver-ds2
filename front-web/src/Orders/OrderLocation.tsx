@@ -59,7 +59,7 @@ const [address,setAddress] = useState<Place>({
         <div className="order-location-container">
             <div className="order-location-content">
                 <h3 className="order-location-title">
-                    Selecione o seu pedido
+                    Selecione um endereço para entrega do seu pedido
                 </h3>
                 <div className="filter-container">
                     <AsyncSelect 
